@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Implemented a Foreign Exchange Query Language (FXQL) Statement Parser using NestJS and TypeScript. This parser will serve as part of a central federation system for Bureau De Change (BDC) operations, allowing them to submit and standardize their exchange rate information.
 
 ## Installation
 
