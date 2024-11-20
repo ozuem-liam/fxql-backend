@@ -1,0 +1,11 @@
+model CurrencyRate {
+  EntryId                Int      @id @default(autoincrement())
+  CurrencyPair           String?   @unique
+  SourceCurrency         String
+  DestinationCurrency    String
+  SellPrice              Float
+  BuyPrice               Float
+  CapAmount              Int
+
+  createdAt              DateTime? @default(now())
+}
