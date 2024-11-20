@@ -27,4 +27,4 @@ ENV PORT=8080
 RUN npm run prisma:generate
 
 # Ensure the .env file is properly used during migrations and build
-CMD ["sh", "-c", "npx prisma migrate deploy && npm run start:vercel"]
+CMD ["sh", "-c", "npx prisma migrate deploy && npm run start:prod"]
