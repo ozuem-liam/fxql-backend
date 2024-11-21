@@ -9,7 +9,7 @@ WORKDIR /
 COPY ["package.json", "package-lock.json", "./"]
 
 # Copy the .env file into the container
-COPY .env .env
+# COPY .env .env
 
 # Install dependencies globally and locally
 RUN npm install -g prisma
